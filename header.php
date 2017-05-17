@@ -40,8 +40,8 @@ $image = "https://raw.githubusercontent.com/profesorfaco/visualizaciones/master/
 <nav>
 <ul class="nav masthead-nav">
 <li<?php if((basename($_SERVER['PHP_SELF']))=='index.php'){?> class="active" <?php };?>><a href="index.php">Blog</a></li>
-<li<?php if((basename($_SERVER['PHP_SELF']))=='visualizacion.php'){?> class="active" <?php };?>><a href="visualizacion.php">Visualización</a></li>
-<li<?php if((basename($_SERVER['PHP_SELF']))=='faq.php'){?> class="active" <?php };?>><a href="faq.php">Preguntas Frecuentes</a></li>
+<li<?php if((basename($_SERVER['PHP_SELF']))=='visualizacion.php'){?> class="active" <?php };?>><a href="visualizacion.php">Visualization</a></li>
+<li<?php if((basename($_SERVER['PHP_SELF']))=='faq.php'){?> class="active" <?php };?>><a href="faq.php">FAQ</a></li>
 </ul>
 </nav>
 </div>
