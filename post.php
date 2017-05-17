@@ -3,7 +3,7 @@
 <div class="col-sm-12 col-lg-10">
 
 <section>
-<h2>Blog de Recomendaciones</h2>
+<h2>Blog Recommendations</h2>
 <?php
 $blog = array_map('str_getcsv', file('data/blog.csv'));
 array_walk($blog, function(&$a) use ($blog) {$a = array_combine($blog[0], $a);});
