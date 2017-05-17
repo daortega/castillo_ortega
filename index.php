@@ -6,7 +6,7 @@
 <h2>Blog Recomendations</h2>
 <p> Some recommendations of our favorite games from Steam (Not Ranked). </p>
 <?php
-$blog = array_map('str_getcsv', file('data/blog.csv'));
+$blog = array_map('str_getcsv', file('data/readmoredata.csv'));
 array_walk($blog, function(&$a) use ($blog) {$a = array_combine($blog[0], $a);});
 array_shift($blog);
 $all = count($blog);
