@@ -3,8 +3,8 @@
 <div class="col-sm-12 col-lg-10">
 
 <section>
-<h2>Blog Recomendaciones</h2>
-<p> Les dejamos algunas recomendaciones sobre juegos de computador </p>
+<h2>Blog Recomendations</h2>
+<p> Some recommendations of our favorite games from Steam (Not Ranked). </p>
 <?php
 $blog = array_map('str_getcsv', file('data/blog.csv'));
 array_walk($blog, function(&$a) use ($blog) {$a = array_combine($blog[0], $a);});
