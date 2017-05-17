@@ -1,7 +1,7 @@
 <?php include('header.php');?>
 <section>
 <h2>Visualization</h2>
-  <p> Approbal / Dissaprobal about games.</p>
+  <p> Viewing approval vs. disapproval of our recomendations.</p>
 <?php
 $viz = array_map('str_getcsv', file('url'));
 array_walk($viz, function(&$a) use ($viz) {$a = array_combine($viz[0], $a);});
