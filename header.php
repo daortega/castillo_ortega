@@ -3,7 +3,7 @@
 <?php
 $title = "CompuGames-Ki Recommendations";
 $description = "Some recommendations of our favorite games from Steam (Not Ranked).";
-$image = "https://raw.githubusercontent.com/profesorfaco/visualizaciones/master/images/homers-web-page.gif";?>
+$image = "https://userscontent2.emaze.com/images/72268e61-ad23-4098-96f2-507d30a10516/d010344b9c2f17e8a03264d82680934b.jpg";?>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
