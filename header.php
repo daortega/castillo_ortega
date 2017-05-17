@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <?php
-$title = "CompuGames-Ki";
-$description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu quam ac magna feugiat sollicitudin.";
-$image = "https://raw.githubusercontent.com/profesorfaco/visualizaciones/master/images/homers-web-page.gif";
-?>
+$title = "CompuGames-Ki Recommendations";
+$description = "Some recommendations of our favorite games from Steam (Not Ranked).";
+$image = "https://raw.githubusercontent.com/profesorfaco/visualizaciones/master/images/homers-web-page.gif";?>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
